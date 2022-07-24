@@ -1,6 +1,6 @@
 var playBtn = document.querySelector(".play-btn")
 playBtn.addEventListener("click",function(){
-    var song = new Audio("images/crash.mp3");
+    var song = new Audio("crash.mp3");
     if(song.pause){
         song.play();
         playBtn.src = "images/pause.png";
